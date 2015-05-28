@@ -1,0 +1,161 @@
+body{
+	margin: auto;
+	margin-top:-1%;
+	width:100%;
+	min-width:450px;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	position:relative;
+}
+
+.title_zero{
+	position:relative;
+	background-color: #031025;
+	height:100px;
+}
+
+.title_zero h1{
+	font-size:200%;
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:200;
+}
+
+.title_zero h2{
+	font-size:90%;
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:200;
+	padding-bottom:1%;
+}
+
+.main_nav{
+	position:relative;
+	width:100%;
+	background-color: #4F5866;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main_nav ul{
+	list-style-type: none;
+	border-left:1px solid black;
+}
+
+.main_nav li{
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top:-4%;
+	padding:2%;
+	font-size: 80%;
+	border-left:1px solid #fff;
+	text-transform: uppercase;
+}
+
+.main_nav a{
+	text-decoration: none;
+	color:#E6E7E9;
+}
+
+.main_nav li:hover{
+	background-color:#19384D;
+	color:#fff;
+}
+
+main{
+	position:relative;
+	width:100%;
+	height:830px;
+}
+
+.title_one{
+	position:relative;
+	width:100%;
+	margin-top:-3%;
+	background-color:#E6E7E9;
+}
+
+.title_one h2{
+	width:90%;
+	font-size:130%;
+	text-align:center;
+	padding:5%;
+	font-weight: 200;
+}
+
+.title_two {
+	position:relative;
+	margin-top:-4%;
+	width:100%;
+	background-color:#19384D;
+}
+
+.title_two h3{
+	width:90%;
+	font-size:130%;
+	text-align:center;
+	padding:5%;
+	font-weight: 200;
+	color:#fff;
+}
+
+.description{
+	position:relative;
+	width:90%;
+}
+
+.description dl{
+	list-style-type: none;
+}
+
+.description dt{
+	width:100%;
+	display:block;
+	padding:2%;
+	margin-left:3%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	text-transform: uppercase;
+	text-align:center;
+	border-bottom: 2px solid #666666;
+}
+
+.description dd{
+	width:100%;
+	padding:2%;
+	margin-left:3%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	text-align:center;
+}
+
+footer{
+	position:relative;
+	background-color:#030E21;
+	height:80px;
+}
+
+footer p{
+	text-align:center;
+	padding:2%;
+	font-size:90%;
+	color:#E6E7E9;
+}
+
+footer a{
+	text-decoration:underline;
+	color:#E6E7E9;
+}
+
+@media (min-width: 480px){
+
+	body{
+	}
+
+}
